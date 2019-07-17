@@ -1,0 +1,18 @@
+项目说明
+1.git 版本库
+2.git add +文件名  将文件放在暂存区(暂存在本机）
+3.git commit -m '（备注）'  把文件提交到仓库中去
+4.git status 用于显示工作目录和暂存区的状态(查看commit状态)
+5.git diff +文件名  查看修改内容
+6.git log （查看日志）
+7.git reset --hard HEAD^退回到上个版本 如果需要退回好多个版本就在后面加^
+8.git reset --hard +commit 前七位 回退到指定版本
+9.rm b.txt 删除文件
+上传远程仓库
+10.git remote add origin https://github.com/你的账号/你的项目名称
+11.git push -u origin master 将本地的库推送到master分支
+12.git remote -v 查看远程仓库地址
+然后在服务器上查看是否推送成功
+从现在开始，只需要git push就可以把本机的代码提交到远程仓库
+git push 提交master分支到远程仓库
+git push origin 分支名 提交到其他分支到远程仓库
